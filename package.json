@@ -2,6 +2,8 @@
   "name": "tailwind-components",
   "version": "0.1.0",
   "private": true,
+  "author": "Vignesh Gowrabthuni",
+  "blog": "https://tailwindcomponents.blogspot.com/",
   "dependencies": {
     "cra-template": "1.1.2",
     "react": "^17.0.1",
