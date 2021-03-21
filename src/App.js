@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Dialog from "./components/Dialog";
+import Spinner from './components/Spinner';
 import "tailwindcss/tailwind.css";
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
           Open Dialog
         </button>
       </div>
+      {/* Dialog Component */}
       {isShowDialog && (
         <Dialog
           title={"Dialog Title"}
@@ -56,6 +58,8 @@ function App() {
           Dialog Content goes here...
           </Dialog>
       )}
+      {/* Spinner Component */}
+      <Spinner />
     </div>
   );
 }
